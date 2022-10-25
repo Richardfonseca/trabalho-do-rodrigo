@@ -22,7 +22,7 @@ function cadastrar() {
     inserirNome.textContent = `Nome: ${cadastrarNomeHTML1}`;
   }
 
-  if (cadastrarDataHTML2 === undefined) {
+  if (cadastrarDataHTML2 === "") {
     alert("insira seu data");
   } else {
     inserirData.textContent =`DATA: ${cadastrarDataHTML2}`;
@@ -43,9 +43,9 @@ function cadastrar() {
 
 
   console.log(`Nome cadastrado: ${cadastrosNome[cadastrosNome.length - 1]}`);
-  console.log(`Data de nascimento: ${cadastrosData[cadastrosNome.length - 1]}`);
-  console.log(`endereço${cadastrosEndereco[cadastrosNome.length - 1]}`);
-  console.log(`senha ${cadastrosSenha[cadastrosNome.length - 1]}`);
+  console.log(`Data de nascimento: ${cadastrosData[cadastrosData.length - 1]}`);
+  console.log(`endereço:${cadastrosEndereco[cadastrosEndereco.length - 1]}`);
+  console.log(`senha:${cadastrosSenha[cadastrosSenha.length - 1]}`);
 
   
 }
