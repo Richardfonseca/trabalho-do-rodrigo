@@ -1,0 +1,11 @@
+body {
+   
+    margin : 0;
+}
+#imagem{
+    background-image: url(https://www.maracanau.ce.gov.br/wp-content/uploads/2022/10/cadasrto-esportivo.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    height: 50vw;
+    width:100vw ;
+}
